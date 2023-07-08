@@ -7,6 +7,6 @@ namespace Storety.Models
         public int Id { get; set; }
         [Required]
         public required string Name { get; set; }
-        public int DispayOrder { get; set; } = 0;
+        public int DisplayOrder { get; set; } = 0;
     }
 }
